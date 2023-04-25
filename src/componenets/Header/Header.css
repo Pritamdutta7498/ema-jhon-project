@@ -14,3 +14,20 @@
 .header a:hover{
     color: orange;
 }
+
+/*Responsive  */
+@media only screen and (max-width: 600px) {
+    .header{
+        max-width: 600px;
+        display: flex;
+        flex-direction: column;
+        padding: 0 100px 0 100px;
+        height: 200px;
+    }
+    .all-nav{
+        display: grid;
+        grid-template-columns: 1fr;
+        position: absolute;
+        top:60px;
+    }
+  }
