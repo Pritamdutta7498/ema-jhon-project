@@ -1,0 +1,13 @@
+
+.cart-container{
+    background-color: #FFE0B3;
+    border: 1px solid #95A0A7;
+    border-radius: 0 0 10px 10px;
+    padding: 18px;
+    font-size: 20px;
+    position: sticky;
+    top: 0;
+}
+.grand-total{
+   color:rgb(255, 0, 0);
+}
