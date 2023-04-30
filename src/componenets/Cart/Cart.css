@@ -1,13 +1,23 @@
-
-.cart-container{
-    background-color: #FFE0B3;
-    border: 1px solid #95A0A7;
-    border-radius: 0 0 10px 10px;
-    padding: 18px;
-    font-size: 20px;
-    position: sticky;
-    top: 0;
+.cart-container {
+  background-color: #ffe0b3;
+  border-radius: 0 0 10px 10px;
+  padding: 10px;
+  font-size: 20px;
+  position: sticky;
 }
-.grand-total{
-   color:rgb(255, 0, 0);
+.grand-total {
+  color: rgb(255, 0, 0);
+}
+.btn-clear-cart {
+  width: 90%;
+  height: 56px;
+  font-size: 20px;
+  margin: 10px auto;
+
+  background-color: #ff3030;
+  border-radius: 4px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
